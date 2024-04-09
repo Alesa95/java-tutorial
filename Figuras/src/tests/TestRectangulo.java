@@ -18,15 +18,15 @@ class TestRectangulo {
 	
 	@Test
 	void area() {
-		double areaTeorica = 6;
+		double areaEsperada = 6;
 		double areaReal = r.area();
-		assertEquals(areaTeorica, areaReal);
+		assertEquals(areaEsperada, areaReal);
 	}
 	
 	@Test
 	void perimetro() {
-		double perimetroTeorico = 10;
+		double perimetroEsperado = 10;
 		double perimetroReal = r.perimetro();
-		assertEquals(perimetroTeorico, perimetroReal);
+		assertEquals(perimetroEsperado, perimetroReal);
 	}
 }
