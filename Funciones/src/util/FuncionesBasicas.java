@@ -1,5 +1,8 @@
 package util;
 
+/**
+ * @author Alesa
+ */
 public class FuncionesBasicas {
 
 	/**
